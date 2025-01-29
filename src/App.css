@@ -3,18 +3,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
 }
 
 .App {
-  background-color: #282c34;
-  min-height: 100vh;
   max-width: 1400px;
   width: 100%;
-  display: flex;
-  flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 20px;
