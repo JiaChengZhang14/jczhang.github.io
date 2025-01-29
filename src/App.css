@@ -21,6 +21,19 @@ body {
   box-sizing: border-box;
 }
 
+/**General styles for different header levels and plain text**/
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
 .plain-text {
   font-family: 'IBM Plex Sans', serif;
   font-weight: 400;

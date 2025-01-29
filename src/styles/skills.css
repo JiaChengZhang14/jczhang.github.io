@@ -1,0 +1,12 @@
+/* skills.css */
+.skills-section {}
+
+.box-indent {
+    margin-left: 20px;
+}
+
+.chip-box {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 8px;
+}

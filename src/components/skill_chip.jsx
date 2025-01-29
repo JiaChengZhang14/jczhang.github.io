@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/skill_chip.css';
 
-function Skill_chip({ image, text }) {
+function SkillChip({ image, text }) {
     return (
         <div className="skill-chip">
             <img src={image} alt={text} className="skill-chip-image" />
@@ -10,4 +10,4 @@ function Skill_chip({ image, text }) {
     );
 }
 
-export default Skill_chip;
+export default SkillChip;
