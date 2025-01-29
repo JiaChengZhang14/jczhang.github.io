@@ -9,7 +9,6 @@ function App() {
       <header className="App-header">
         <Header_menu />
       </header>
-      <section>
         <Hero />
       </section>
     </div>
