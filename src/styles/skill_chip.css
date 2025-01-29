@@ -1,0 +1,24 @@
+.skill-chip {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    width: fit-content;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-chip-image {
+    width: 22px;
+    /* Ajusta el tamaño de la imagen */
+    height: 22px;
+    margin-right: 8px;
+    /* Opcional, si quieres que la imagen sea redonda */
+}
+
+.skill-chip-text {
+    white-space: nowrap;
+}

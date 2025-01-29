@@ -3,25 +3,26 @@
     flex-direction: column;
 
     align-items: center;
-    /* Ocupa toda la altura de la pantalla */
-    height: 100vh;
     text-align: center;
 }
 
 .hero-section h1 {
     margin-top: 50px;
+    margin-bottom: 0cap;
 }
 
-
-
+/**Location styles**/
 
 .location {
     display: flex;
-    /* Usamos Flexbox para los elementos de la localización */
     align-items: center;
+    opacity: 0.7;
 }
 
 .location img {
     margin-right: 8px;
-    /* Espacio entre el icono y el texto */
+}
+
+.location-text {
+    font-size: 15px;
 }

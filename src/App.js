@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header_menu from './components/header_menu';
 import Hero from './components/hero';
+import Skills from './components/skills';
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       <header className="App-header">
         <Header_menu />
       </header>
-        <Hero />
-      </section>
+      <Hero />
+      <Skills />
     </div>
   );
 }
