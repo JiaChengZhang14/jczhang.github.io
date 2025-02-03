@@ -1,12 +1,41 @@
 /* skills.css */
-.skills-section {}
+.skills-section {
+    max-width: 1400px;
+}
 
-.box-indent {
-    margin-left: 20px;
+.skills-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
 }
 
 .chip-box {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+
+.skills-box__skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    max-width: 24rem;
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+@media (min-width: 1350px) {
+    .skills-box__skill-card {
+        transition: transform 0.2s ease-in-out;
+
+    }
+
+    .skills-box__skill-card:hover {
+        transform: scale(1.05);
+    }
 }
